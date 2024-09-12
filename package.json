@@ -6,7 +6,9 @@
     "type": "git",
     "url": "git+https://github.com/hangineer/2024-iron-TS.git"
   },
-  "scripts": {},
+  "scripts": {
+    "build": "tsc"
+  },
   "devDependencies": {
     "typescript": "^5.6.2"
   }
