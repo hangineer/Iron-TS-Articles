@@ -1,0 +1,13 @@
+{
+  "name": "2024-iron-ts",
+  "version": "1.0.0",
+  "author": "Hannah",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hangineer/2024-iron-TS.git"
+  },
+  "scripts": {},
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  }
+}
