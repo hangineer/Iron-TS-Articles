@@ -1,6 +1,6 @@
 const name: string = 'hannah';
 
-// export {}; // 可以試著把這段註解，看看會發生什麼事
+export {}; // 可以試著把這段註解，看看會發生什麼事
 
 /*
 另一個解法是
