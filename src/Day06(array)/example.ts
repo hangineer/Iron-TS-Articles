@@ -29,6 +29,22 @@ console.log(myArray.length); // 2
 // console.log(myArray.push("foo")); // ❌
 
 // ---------------------------------------------
+
+interface MyObject {
+  id: number;
+  name: string;
+  memo?: string;  // 可選屬性
+}
+
+let arrayOfObjects: MyObject[] = [
+  { id: 1, name: 'Item 1', memo: 'test' },
+];
+
+arrayOfObjects.push({ id: 2, name: 'Item 2' });
+console.log(arrayOfObjects); // 印出兩個物件
+
+// ---------------------------------------------
+
 // 情境一：二維陣列
 const cinemaSeats: boolean[][] = [
   [false, false, false, false],
