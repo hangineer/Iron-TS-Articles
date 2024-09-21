@@ -76,11 +76,11 @@ sayHi(printToConsole);
 
 
 // Interface Functions 介面函式
-interface strFunc {
+interface StrFunc {
   (input: string): string;
 }
 
-const repeatStr: strFunc = function(input: string): string {
+const repeatStr: StrFunc = function(input: string): string {
   return input.repeat(2);
 };
 
