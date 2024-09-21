@@ -18,7 +18,7 @@ let directions = [
   Direction.Left,
   Direction.Right
 ];
-console.log(directions); // [0 , 1, 2, 3]
+console.log(directions); // [0, 1, 2, 3]
 
 // 3
 const enum StrDirection {
@@ -41,6 +41,22 @@ enum Infinite {
 // const enum Infinite {
 //   a = 1 / 0, // ❌ const enum member initializer was evaluated to disallowed value 'Infinity'.
 // }
+
+
+// 外部列舉 Ambient enums
+declare enum Ambient {
+  Up,
+  Down,
+  Left,
+  Right,
+};
+let test = [
+  Ambient.Up,
+  Ambient.Down,
+  Ambient.Left,
+  Ambient.Right
+];
+// console.log(test); // ❌ ReferenceError: Ambient is not defined...
 
 
 // enums at runtime
