@@ -37,3 +37,16 @@ console.log(b); // [world, 123]
 
 // ❌ 故意出錯的型別註釋
 // const c = combine<string, string>("world", 123);
+
+
+// 牛刀小試
+function processArray<T>(arr: T[]): T[] {
+  return arr;
+
+}
+
+let strAry = ["apple", "banana", "cherry"];
+let processedStrings = processArray<string>(strAry);
+
+let numberAry = [1, 2, 3];
+let processedNumbers = processArray<number>(numberAry);
