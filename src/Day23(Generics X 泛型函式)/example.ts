@@ -42,7 +42,6 @@ console.log(b); // [world, 123]
 // 牛刀小試
 function processArray<T>(arr: T[]): T[] {
   return arr;
-
 }
 
 let strAry = ["apple", "banana", "cherry"];
