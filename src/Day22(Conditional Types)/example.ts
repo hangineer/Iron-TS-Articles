@@ -72,4 +72,13 @@ type StringVal = Flatten<string>;       // ✅ type StringVal =  string
 
 
 // 條件型別的可分配性(distributive)
+type IsString<T> = T extends string ? 'Yes' : 'No';
+
+// 聯合型別
+type MixedTypes = string | number | boolean;
+
+// 聯合型別 結合「條件型別」
+type Result = IsString<MixedTypes>;  // Result 的型別會是 'Yes' | 'No'
+
+// 若不想有可分配性，可使用元組來封裝
 type NonDistributive<T> = [T] extends [string] ? 'Yes' : 'No';
