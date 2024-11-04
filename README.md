@@ -1,7 +1,7 @@
 # 主題：TypeScript 初學者也能看的學習指南
 ### 本專案紀錄 2024 鐵人賽文章內的範例 code，方便讀者操作、閱覽，若有任何錯誤之處請不吝指教
 
-![cover image](public//image.png)
+![cover image](https://i.imgur.com/zAri5F0.jpg)
 天數 | 文章連結 | 資料夾對應 | 備註
 ------------- | -------------| -------------| -------------
 Day01 | [連結](https://ithelp.ithome.com.tw/articles/10349345) | - | 開場白
