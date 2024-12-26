@@ -30,7 +30,7 @@ Day23 | [連結](https://ithelp.ithome.com.tw/articles/10362899) | Day23(Generic
 Day24 | [連結](https://ithelp.ithome.com.tw/articles/10363196) | Day24(Generics X 泛型約束)
 Day25 | [連結](https://ithelp.ithome.com.tw/articles/10363702) | Day25(Generics X 參數預設值 X type 應用)
 Day26 | [連結](https://ithelp.ithome.com.tw/articles/10364270) | - | 實用套件介紹
-Day27 | [連結](https://ithelp.ithome.com.tw/articles/10364814) | - | 實作 To Do List(另開 [Github Repo](https://github.com/hangineer/todo-app))
-Day28 | [連結](https://ithelp.ithome.com.tw/articles/10365470) | - | 實作 To Do List(另開 [Github Repo](https://github.com/hangineer/todo-app))
+Day27 | [連結](https://ithelp.ithome.com.tw/articles/10364814) | - | 實作 To Do List([Github Repo](https://github.com/hangineer/todo-app))
+Day28 | [連結](https://ithelp.ithome.com.tw/articles/10365470) | - | 實作 To Do List([Github Repo](https://github.com/hangineer/todo-app))
 Day29 | [連結](https://ithelp.ithome.com.tw/articles/10365843) | - | 讓 TypeHero 成為你學習的助力
 Day30 | [連結](https://ithelp.ithome.com.tw/articles/10366331) | - | 完賽
