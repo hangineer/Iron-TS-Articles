@@ -66,7 +66,7 @@ enum VerifyResult {
   Successful,
 };
 
-function getVerifyResult (obj: { Pending: number }) {  // ✅ VerifyResult 裡包含了 Pending, Successful
+function getVerifyResult (obj: { Pending: number }) { 
   return obj.Pending;
 };
 getVerifyResult(VerifyResult);
